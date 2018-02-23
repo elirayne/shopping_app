@@ -1,6 +1,6 @@
-class CreateDepartments < ActiveRecord::Migration[5.1]
+class CreateLists < ActiveRecord::Migration[5.1]
   def change
-    create_table :departments do |t|
+    create_table :lists do |t|
       t.string :phone
       t.string :tv
       t.string :computer

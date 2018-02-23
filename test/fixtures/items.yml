@@ -4,10 +4,10 @@ one:
   name: MyString
   description: MyString
   price: 
-  Department: one
+  List: one
 
 two:
   name: MyString
   description: MyString
   price: 
-  Department: two
+  List: two
