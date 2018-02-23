@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  phone: MyString
+  tv: MyString
+  computer: MyString
+  Store: one
+
+two:
+  phone: MyString
+  tv: MyString
+  computer: MyString
+  Store: two
