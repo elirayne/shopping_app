@@ -3,8 +3,8 @@ class CreateItems < ActiveRecord::Migration[5.1]
     create_table :items do |t|
       t.string :name
       t.string :description
-      t.float, :price
-      t.belongs_to :List, foreign_key: true
+      t.float :price
+      t.belongs_to :list, foreign_key: true
 
       t.timestamps
     end

@@ -4,7 +4,7 @@ class CreateLists < ActiveRecord::Migration[5.1]
       t.string :phone
       t.string :tv
       t.string :computer
-      t.belongs_to :Store, foreign_key: true
+      t.belongs_to :store, foreign_key: true
 
       t.timestamps
     end
